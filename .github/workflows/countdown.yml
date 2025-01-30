@@ -2,7 +2,7 @@ name: Countdown Bot
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Runs at 12:00 UTC every day
+    - cron: '30 5 * * *'  # Runs at 12:00 UTC every day
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
