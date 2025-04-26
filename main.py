@@ -12,7 +12,7 @@ client = tweepy.Client(
 )
 
 # Countdown configuration
-EVENT_DATE = datetime(2025, 5, 22, 23, 59, 59)
+EVENT_DATE = datetime(2025, 5, 16, 23, 59, 59)
 
 def post_tweet(message):
     try:
